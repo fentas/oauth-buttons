@@ -6,8 +6,7 @@
     "sign-in.js",
     "github/sign-in.js",
     "dropbox/sign-in.js",
-    "g
-    oogledrive/sign-in.js"
+    "googledrive/sign-in.js"
   ],
   "repository": {
     "type": "git",
