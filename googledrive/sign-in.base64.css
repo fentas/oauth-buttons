@@ -1,0 +1,22 @@
+
+button.sign-in.google-drive:before {
+  background: URL('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEsUlEQVRYw+2XT2xUVRTGf+e8+fOmM8WJBlOrkZKYaARMKSGoxKRGliaycSGWBBLYt2sXtTHGFWlli6GVRXdGVxoSlVFjXAhSgynFf61VQ0L4M0ILdDrvHhf3vtc2lTLIohtecue+eXlzz3e+853v3hEzYz0vZZ2vdQeQS29EZM0XC8f2HTiW+2309afS98T/RsKMgPjnwMH4ha/H1lovLb1kN2sAKBzbVwXOdl263FXruUa1kkNEEFUPAA8kLARGHWFzcVetfjcArZagH+iazrVxZDJaGVwUVBFRZGmuishgKwvflYHCB/u6MKYBmG9Qmr3CqRfnefbxog8mAumclsFIP7bnd34xcV8MiMiwqCAqSHuReQdvncvTdAKqoJFnQ1cw4JlBRu+rC+LRvl4R9vokBVTQcszn/xT56EITyYSYBo78yMoi3Yun9/T//zYURlGBSCFloZwHgXd/KXDtRpJ1g0jQhCoSRVmHAIOL379SvWcApQ/7+kWkK6M/tJu0x0ikTDfzHJk00BAogEiBIFmHVIHhexJh6cT+KjAtQpVUXKl4EiM5fxEQypHV/3jVaIvz1eUsYIaZw1yCOT9j9nJh16laSyIUGBbBL6rikwkakJwicQFyyrxE75eK0UCqeSMENgfm/NMQyLDhlkpQOrG/G+GASAgYQKT3hG4QlRlERvI9J8cMq2Hms7V0WMgygDDrvv3dS/2taGA4pcEHJNQ3VEIEKeVBZajxzmf1wOdAlrlzgXa3VArLQAze+nZ31x0BlMb69gK9y2ueuuuK7xtKtYW3P828Pt9zcuKrs1dHzpyv8/PsHJeuLrDYDPU3gyVGqpgb/s/NKD7+ZtVgWAwQAxPMDAmzIUsOF8nAamtLhm7MJwfq1xvVJDGSxCjHysMbIj/aI3IKZrb35jfP9wK1FQwY9GN0gZEyhoE5w5wFOg3Mxm6+MbrKXvcc+qEe5xlKdeCcoz63yO9/3+LM1Bxfnq5z5sIc0xcXuHK9ObqqDePjfddEqGbCC/X2I7A0u4nqjzu90agSRTkqnduIimX/ihlP5s5izkgSh3NemM45LEmydfKyMPPxe69tXlECjAmDXjHfTikt6U4ri3nK558GDDGHap5K51byxTIaFGoYfzZ34JwjSYwkiNEljqTZxDmXRhtaJULDDqaU+zmYhXOYM+JfNxPdjME5JCpQ6dhKrlBBRVFRIlUijYjUf1cVNJwVJDu0ADAzdbRzbBWAxqHxGTMbyupuBs7rQediSlObwBxaaKPyxA6iYgXFB1FNASiaBmTZQUXCzulBDKzlAyNmNuODh9Z1RvncFtTl0EKZcud2RHJgnnZBAhD1pVgRPHPWdNSmjnZ+ckcAjcPjdcCzYF79+cuPULzYgRbaaXusB9Ecmbma4TxRODOchfKZeR0tk1LYb4bu6oSNw+NjaY8CtE8+hxbbKXV0++BZe6bDgsgcLjGv+NT4MgQGUJsc6ai1uh0PAJRnn6HY2ET86DaQKPN3C9k6cyRuaTSThMT5596CWbYncLDl80Dj8PhEdLs08tBfu4k3bgmZh+yCvTrn+zxJlgf39845ErcE1mDspyMbZ9Y8D6zX9eCv2QMA/wJMLIqA48PhbAAAAABJRU5ErkJggg==') center center no-repeat #ddd;
+}
+
+button.sign-in.google-drive:hover:before, button.sign-in.google-drive:focus:before {
+  background-color: #dd4b39;
+}
+
+button.sign-in.google-drive:hover > p {
+  color: #dd4b39;
+}
+
+/* :focus or :active */
+button.sign-in.google-drive:focus {
+  color: #fff;
+  background: #dd4b39;
+}
+
+button.sign-in.google-drive:focus > p {
+  color: #fff;
+}
