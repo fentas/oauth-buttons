@@ -1,0 +1,22 @@
+{
+  "name": "oauth-buttons",
+  "private": true,
+
+  "main": [
+    "sign-in.js",
+    "github/sign-in.js",
+    "dropbox/sign-in.js",
+    "g
+    oogledrive/sign-in.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fentas/oauth-buttons.git"
+  },
+
+  "ignore": [
+    "/demo.html"
+  ],
+  "dependencies": {
+  }
+}
