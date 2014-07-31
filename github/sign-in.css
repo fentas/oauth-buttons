@@ -1,0 +1,22 @@
+
+button.sign-in.github:before {
+  background: URL('GitHub-Mark-32px.png') center center no-repeat #ddd;
+}
+
+button.sign-in.github:hover:before, button.sign-in.github:focus:before {
+  background: URL('GitHub-Mark-Light-32px.png') center center no-repeat #000;
+}
+
+button.sign-in.github:hover > p {
+  color: #000;
+}
+
+/* :focus or :active */
+button.sign-in.github:focus {
+  color: #fff;
+  background: #000;
+}
+
+button.sign-in.github:focus > p {
+  color: #fff;
+}

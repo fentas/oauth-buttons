@@ -1,0 +1,55 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,800);
+/* @import url(http://fonts.googleapis.com/css?family=Roboto:500,900); */
+
+button.sign-in {
+  width: 231px;
+  height: 42px;
+
+  background: #ddd;
+
+  cursor: pointer;
+  position: relative;
+
+  padding: 8px;
+  margin: 2px 2px 2px 43px;
+  border: 0;
+  border-radius: 0px 3px 3px 0px;
+  box-shadow: -1px 0 0 0 #fff, -2px 0 0 0 #eee;
+
+  text-align: left;
+  font: normal normal 500 12pt 'Open Sans', 'Roboto', sans-serif;
+  text-shadow: 0 0 1px #FFF;
+  color: #757575;
+
+  transition: background 0.25s ease;
+}
+
+button.sign-in > p {
+  display: inline;
+
+  font-weight: 800;
+  color: #606060;
+}
+
+button.sign-in:focus {
+  outline: none;
+}
+
+button.sign-in:before {
+  content: "";
+
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: -43px;
+
+  width: 32px;
+  height: 32px;
+
+  padding: 5px;
+  border-right: 1px solid #eee;
+  border-radius: 3px 0px 0px 3px;
+
+  transition: background 0.25s ease;
+}
